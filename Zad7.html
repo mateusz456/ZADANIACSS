@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>zad7</title>
+<style>
+div{
+    border: 1px solid black;
+    padding:8px;
+}
+h1{
+    font-family: Arial;
+}
+</style>
+</head>
+<body>
+<h2>II sposób podłączania styli do strony.</h2> <br>
+<h3><b>Styl wpisany </b> (styl lokalny, liniowy, linijkowy) Dopisanie arkusza do <br> wybranego bloku. </h3><br>
+<p>
+Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi strony. Jest wstawiany w tej samej linii, <br>
+w której znajduje się element formatowany.<br>
+O tym, który to będzie element, decyduje słowo kluczowe "selektor".<br>
+</p>
+Składnia teoretyczna: <br>
+<div>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor><br>
+</div>
+lub inaczej <br>
+<div>
+<selektor style="nasze style">treść bloku</selektor> <br>
+</div>
+<b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td (komórka tabeli) i inne. <br>
+To właśnie elementom znajdującym się pomiędzy tymi znacznikami,nadajemy atrybuty formatowania. <br>
+Jako <b>"cecha"</b> czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). <br>
+Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami. <br>
+Jako wyraz <b>"wartość" </b>(w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). <br> 
+Wartość zależy ściśle od cechy, po której stoi w deklaracji. <br>
+Opis wszystkich cech później. <br>
+Przykład: <br>
+<div>
+<p style="color: red">To jest kolor tekstu na czerwono</p> <br>
+</div>
+Uwaga: <br>
+<u>Styl wpisany</u> jest wprowadzony w wybranym znaczniku i <b>nie ma</b> wpływu na pozostałe znaczniki. <br>
+</body>
+</html>
