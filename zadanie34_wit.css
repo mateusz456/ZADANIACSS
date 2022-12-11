@@ -1,0 +1,8 @@
+h3 { 
+ width: 300pt;
+ height: 2cm;
+ padding : 20px;
+ margin-right : 10px;
+ border : 10px groove #800000;
+ background : #66966b;
+ }
